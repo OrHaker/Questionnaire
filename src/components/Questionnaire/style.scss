@@ -1,0 +1,22 @@
+.Questionnaire {
+	padding: 50px 20px;
+	font-size: 20px;
+
+	.question {
+		padding-inline-start: 20px;
+		padding-top: 15px;
+
+		.question {
+			padding-inline-start: 40px;
+		}
+
+		+ .question {
+			padding-top: 25px;
+		}
+
+		input:not([type='radio']):not([type='checkbox']),
+		select {
+			height: 30px;
+		}
+	}
+}
